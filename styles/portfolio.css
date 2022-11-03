@@ -64,3 +64,18 @@ font-family: 'Roboto', sans-serif;*/
 color: var(--main-text-color);
 opacity: 48%;
 }
+
+@media (max-width:736px) {
+    h1 {
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+}
