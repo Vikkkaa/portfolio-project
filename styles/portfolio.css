@@ -6,6 +6,7 @@
 body {
   text-align: center;
   background-color: var(--main-bg-color);
+  
 }
 
 .hero {
@@ -63,6 +64,12 @@ font-family: 'Roboto', sans-serif;*/
 .sm-links {
 color: var(--main-text-color);
 opacity: 48%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
 @media (max-width:736px) {
