@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #000000;
+  --main-bg-color: #202020;
   --main-text-color: #ffffff;
   --second-text-color: #f65282;
   --main-font-family: "Roboto", sans-serif;
@@ -8,8 +8,8 @@ body {
   text-align: center;
   background-color: var(--main-bg-color);
 }
-nav {
-background-color: #000000;
+.bg-dark {
+background-color: var(--main-bg-color);
 padding: 25px 25px;
 }
 
