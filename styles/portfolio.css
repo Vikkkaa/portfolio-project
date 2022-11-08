@@ -118,8 +118,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 28px;
-  width: 100%;
-  height:auto;
+  height: 300px;
+  cursor: pointer;
+  position: relative;
 }
 
 .image-text {
