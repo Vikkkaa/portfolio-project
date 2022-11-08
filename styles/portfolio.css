@@ -7,11 +7,10 @@
 body {
   text-align: center;
   background-color: var(--main-bg-color);
-  
 }
 .bg-dark {
-background-color: var(--main-bg-color);
-padding: 25px 25px;
+  background-color: var(--main-bg-color);
+  padding: 25px 25px;
 }
 
 .navbar-collapse {
@@ -19,7 +18,11 @@ padding: 25px 25px;
 }
 
 .container-fluid {
-  margin: 5px 15px;
+  margin: 5px auto;
+}
+
+.navbar {
+  margin: 0 15px;
 }
 
 .logo-img {
@@ -174,6 +177,9 @@ img {
 }
 
 @media (max-width: 767px) {
+  .container-fluid {
+    padding: 0;
+  }
 
   .hidden-mobile {
     display: none;
@@ -215,5 +221,11 @@ img {
   }
   .box:hover {
     flex: none;
+  }
+  .mywork-heading {
+    margin-top: 5px;
+  }
+  .mywork.container-fluid {
+    margin-right: 12px;
   }
 }
