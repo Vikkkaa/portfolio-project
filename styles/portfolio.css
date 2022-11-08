@@ -8,16 +8,23 @@ body {
   text-align: center;
   background-color: var(--main-bg-color);
 }
+nav {
+background-color: #000000;
+padding: 25px 25px;
+}
 
 .container-fluid {
-  margin: 25px auto;
-  padding: 0;
+  margin: 5px 15px;
+}
+
+.logo-img {
+  margin-left: 20px;
 }
 
 .hero {
   text-align: center;
   padding: 35px 15px;
-  margin: 55px auto;
+  margin: 5px;
   height: 640px;
   background-image: url(../images/cityscape.jpg);
   background-position: center, center;
