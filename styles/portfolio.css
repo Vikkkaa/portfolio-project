@@ -13,6 +13,10 @@ background-color: var(--main-bg-color);
 padding: 25px 25px;
 }
 
+.navbar-collapse {
+  justify-content: end;
+}
+
 .container-fluid {
   margin: 5px 15px;
 }
