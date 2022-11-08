@@ -7,6 +7,7 @@
 body {
   text-align: center;
   background-color: var(--main-bg-color);
+  
 }
 .bg-dark {
 background-color: var(--main-bg-color);
@@ -173,11 +174,15 @@ img {
 }
 
 @media (max-width: 767px) {
+
   .hidden-mobile {
     display: none;
   }
   h1 {
     font-size: 42px;
+  }
+  .aboutme {
+    margin: 2px auto;
   }
   .aboutme h1 {
     font-size: 42px;
