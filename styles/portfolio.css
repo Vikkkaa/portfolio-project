@@ -105,9 +105,13 @@ font-family: 'Roboto', sans-serif;*/
   justify-content: space-between;
 }
 
+img {
+  border-radius: 2px;
+}
+
 .gallery {
   position: relative;
-  margin: auto 215px;
+  margin: auto 225px;
 }
 
 .image-gallery {
