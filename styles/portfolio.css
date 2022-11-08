@@ -31,13 +31,13 @@ body {
 }
 
 h1 {
+  text-align: center;
   color: var(--main-text-color);
   font-family: var(--main-font-family);
   font-weight: bold;
   font-size: 72px;
   letter-spacing: 6px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: auto 25px;
 }
 
 .aboutme-image {
@@ -111,15 +111,15 @@ img {
 
 .gallery {
   position: relative;
-  margin: auto 225px;
+  
 }
 
 .image-gallery {
-  margin: auto 10px;
-  padding: 10px 10px;
+  margin: auto 12px;
+  padding: 15px 15px;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 28px;
 }
 
 .image-gallery > li {
@@ -136,12 +136,17 @@ img {
   vertical-align: middle;
 }
 
+.image-text {
+  font-size: 14px;
+}
+
 @media (max-width: 767px) {
   .hidden-mobile {
     display: none;
   }
   h1 {
     font-size: 42px;
+    
   }
   .aboutme h1 {
     font-size: 42px;
@@ -149,6 +154,7 @@ img {
   .aboutme-hero {
     text-align: center;
   }
+
   .aboutme-text {
     margin: 10px auto;
   }
@@ -164,4 +170,5 @@ img {
   .btn {
     font-size: 10px;
   }
+
 }
