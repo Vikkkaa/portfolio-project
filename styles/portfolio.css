@@ -9,7 +9,7 @@ body {
   background-color: var(--main-bg-color);
 }
 
-.container {
+.container-fluid {
   margin: 25px auto;
   padding: 0;
 }
@@ -28,7 +28,6 @@ body {
 
 .aboutme-hero {
   text-align: left;
-  
 }
 
 h1 {
@@ -104,7 +103,6 @@ font-family: 'Roboto', sans-serif;*/
   opacity: 48%;
   position: relative;
   justify-content: space-between;
-  
 }
 
 .gallery {
