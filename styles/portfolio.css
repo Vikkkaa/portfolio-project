@@ -8,6 +8,7 @@
 body {
   text-align: center;
   background-color: var(--main-bg-color);
+  padding: 5px 5px;
 }
 .bg-dark {
   background-color: var(--main-bg-color);
@@ -23,7 +24,7 @@ body {
 }
 
 .navbar {
-  padding: 0 15px;
+  padding: 5px 15px;
 }
 
 .logo-img {
@@ -143,18 +144,18 @@ img {
 }
 
 .box > img {
-  width: 150%;
+  width: 100%;
   height: calc(100% - 10vh);
   object-fit: cover;
   transition: 1.5s;
 }
 
 .box > span {
-  font-size: 3.8vh;
+  font-size: 1.8vh;
   display: block;
   text-align: center;
   height: 10vh;
-  line-height: 2.6;
+  line-height: 1.2;
 }
 
 .box:hover {
@@ -171,7 +172,7 @@ img {
 }
 
 .address-email-whatsapp {
-  margin-top: 105px;
+  margin-top: 75px;
 }
 .contact-content {
   margin: 45px auto;
@@ -180,15 +181,22 @@ img {
 footer {
   background-color: var(--second-bg-color);
   padding: 20px 20px;
-  margin-bottom: 0;
+  bottom: 0;
+  width: 100%;
+  height: 85px;
+  position:fixed;
 }
 
 .footer-text {
   font-size: 16px;
   font-weight: normal;
+  padding: auto auto;
 }
 
 @media (max-width: 767px) {
+  nav {
+    position: fixed;
+  }
   .container-fluid {
     padding: 0;
   }
@@ -239,5 +247,14 @@ footer {
   }
   .mywork.container-fluid {
     margin-right: 12px;
+  }
+  footer {
+    position: relative;
+    height: 75px;
+  }
+  .footer-text {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 15px auto;
   }
 }
